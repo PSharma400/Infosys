@@ -581,3 +581,214 @@ iii) Dark Deployment
 4. enable feature
 5. data collection
 6. Analysis
+
+FF: https://rms.koenig-solutions.com/Feedback/FinalFeedback.aspx?d=eewC8HLqd+FQIHdCv/rffeZqyUbu0xRX6i+gfqgMUHg=
+
+MTM Survey: https://www.metricsthatmatter.com/url/u.aspx?EE13E2FAC220578386
+
+**** GitHub Actions
+
+automate the various tasks & workflows within your GitHub env.
+
+
+build, test & deploy your code from your GitHub repo.
+
+
+YAML Based configuration--- define steps & actions
+
+
+Execution env:
+1. GitHub -hosted Runners
+
+runson: windowslatest
+
+2. Self-Hosted Runners
+
+runson: self-hosted
+
+GitHub marketplace
+
+
+
+
+DevSecOps: integrate the security in to DevOps
+1. Tests
+Unit testing
+Functional testing
+integration testing 
+system testing
+
+2.
+continuous monitoring----> Azure Monitor
+
+VM, App service
+
+Azure Monitor:
+monitor cloud & non-cloud env
+
+collect, analyse, visualize, respond, integrate to monitored data
+
+
+max performance & high availability of the infra & app.
+
+
+Resource Logs
+Activity log--- sub logs-----> 90 days
+
+3. Microsoft defender for cloud---- CSPM
+
+posture management
+threat protection
+
+
+multicloud env: azure, GCP, AWS, on-prem resources
+
+
+Azure DevOps----> security
+
+protect their app & resources from code to cloud across multipipeline env.
+
+DevOps Security Console
+
+
+
+4. Azure Load testing: fully managed
+
+monitor app performance
+
+
+
+
+https://infosyswebapp.azurewebsites.net
+
+IaC & Configuration Management
+
+
+1. Manual Deployment
+
+2. Automated Deployment
+IaC---->  declarative syntax(What)
+
+1) bulk or repetitive or complex
+2) modularity
+3) Reusability
+4) less error
+5) time save
+6) reduced cost
+7) consistency
+8) orchestration
+
+idempotent Configuration
+
+
+1. ARM Template
+
+1) Quick start template
+2) Build you own template
+
+JSON File-----> .json
+
+store---> key/name:value pair
+
+key/name----> string
+value-----> char, list, int, string, Boolean, array
+
+i. schema
+ schema
+ version
+ parameter
+ variables
+ function
+ resource
+ outputs
+
+ii. parameter
+
+parameter
+
+dependencies---- depends on
+
+
+
+
+2. Bicep
+IaC----> declarative syntax
+
+DSL---open tool
+
+simple & concise syntax
+
+.bicep
+
+
+Author(.bicep)-----> convert in to ARM template----> Deploy
+
+Transpilation
+
+
+
+*** Azure Automation with DevOps
+
+automate various tasks & processes 
+
+Runbook--- set of predefined tasks & automation procedures
+
+1. Runbook Gallery
+2. Custom Runbook
+
+i) Graphical runbooks
+ii) PowerShell Runbook
+iii) Python runbook
+iv) PowerShell Workflow Runbook
+
+
+Implement DSC:----
+Push
+Pull
+
+DSC:
+
+
+configuration conf-name
+{
+node ........,............,........
+{
+file file1
+{
+ Ensure = 'present'
+ Type = 'File'
+ Destination = Desktop or C:\MyFolder\file1.txt
+}
+}
+}
+
+
+
+Packages
+1. Nuget --- .NET code---- .nupkg
+
+2. npm--- Java script development--- node.js---- .json
+
+3. maven--- Java based projects
+
+4. PyPi (Cheese shop)--- python
+
+
+
+Package Feed
+1. Public Feed --- nuget.org
+
+2. Private Feed
+
+
+Blameless Retrsopective
+
+
+
+
+1. Learning Paths
+2. Knowledge checks
+3. Practice Assessment
+4. Qubits
+5. Labs
+
