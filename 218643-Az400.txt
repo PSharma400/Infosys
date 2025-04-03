@@ -1,0 +1,828 @@
+218643----AZ-400T00-A: Designing and Implementing Microsoft DevOps solutions
+
+Day1 Attendance Link:
+https://rms-new.netlify.app/third_party?batch_header=218643 
+Trainer Name: Pooja Sharma
+Use your Corporate Email to mark the attendance
+
+LET Portal(Student Portal) Login: Training details are available on this portal (Meeting Links, Recording Links, Reference Links, Qubits etc.)
+      Link:----- https://www.mykoenig.com/
+      Credentials Details:---- Corporate Email ID: Your Corporate Email ID, Password: 218643
+
+Lab Access Details:
+    Lab Link: https://gsi.learnondemand.net/
+    Email ID: Login using your personal Microsoft account Email ID
+    Click Register and Redeem Lab training key (Training Key: 0E7E99CC69BF4CA6 )
+    **Important: Make sure you Redeem Lab training key within these training days, once training completes, lab key will 
+    expire and you will not be able to access labs.
+
+Training Key: 0E7E99CC69BF4CA6
+
+Labs:
+https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/
+
+Exam:
+https://learn.microsoft.com/en-us/credentials/certifications/exams/az-400/
+
+Demo code: 
+https://azuredevopsdemogenerator.azurewebsites.net/
+
+
+DAY 1:-----------------------------------------------------------------------------------------------------------------------
+
+SDLC: S/w Development Life Cycle
+
+Phases:
+i. Planning
+ii. Requirement Analysis--- SRS(s/w Requirement Specification) doc
+iii. Design
+iv. Development/ Coding
+v. Testing
+vi. Deployment
+vii. Maintenance (Perfective, Preventive, Corrective)
+
+
+1. Waterfall Model: linear & sequential approach
+
+large, complex projects
+
+
+Org A:--- 
+50% advance initially
+06 months 
+50% pay
+
+Org B:---
+Pay 10% every month
+involve you after every month
+take feedback
+6 months
+
+2. Agile Development Model (iterative/Sprint)
+quickly adapt the change request
+quickly project completion
+customer satisfaction
+
+
+1. Planning
+2. Requirements
+3. Design
+4. Development
+5. Testing
+6. Deployment
+7. Feedback
+
+
+DevOps: Development + Operations
+
+3Ps---People, Process & Product
+
+
+collaboration
+Automation---CI/CD
+Continuous Integration
+Continuous Deployments
+
+
+DevOps Tools
+
+
+Microsoft Azure--- n services
+
+IaaS
+PaaS
+SaaS
+
+
+Azure DevOps Organization
+
+SaaS Service
+
+Services:----
+
+
+portal.azure.com
+
+Logical Components:---
+1. Microsoft Account--- Tenant
+2. Management Group (optional)
+3. Subscription
+4. Resource Group
+5. Resources
+
+
+Physical Components:
+
+70+ regions, 140 countries
+
+1. Geography
+2. Regions/ Regional Pair
+3. Availability Zones--3
+4. DC
+5. Racks
+
+
+dev.azure.com
+dev.azure.com/orgname
+dev.azure.com/orgname/projectname
+
+aex.dev.azure.com
+
+Default Directory
+
+
+
+Azure Boards:----
+various processes-----> by default, Basic
+
+
+managing the work items
+
+
+1. Basic
+2. Agile
+3. Scrum
+4. CMMI----- 4R's (requirements, requests, risks, reviews)
+
+
+Workitems:
+1. Bug
+2. Epic
+3. Feature
+4. Issue
+5. Task
+6. User story
+7. Test Cases
+
+
+
+DAY2:-----------------------------------------------------------------------------------------------------------------------
+
+Day2 Attendance Link:
+https://rms-new.netlify.app/third_party?batch_header=218643 
+Trainer Name: Pooja Sharma
+Use your Corporate Email to mark the attendance
+
+LET Portal(Student Portal) Login: Training details are available on this portal (Meeting Links, Recording Links, Reference Links, Qubits etc.)
+      Link:----- https://www.mykoenig.com/
+      Credentials Details:---- Corporate Email ID: Your Corporate Email ID, Password: 218643
+
+Lab Access Details:
+    Lab Link: https://gsi.learnondemand.net/
+    Email ID: Login using your personal Microsoft account Email ID
+    Click Register and Redeem Lab training key (Training Key: 0E7E99CC69BF4CA6 )
+    **Important: Make sure you Redeem Lab training key within these training days, once training completes, lab key will 
+    expire and you will not be able to access labs.
+
+
+Achievement URL:
+https://learn.microsoft.com/en-us/users/me/achievements?redeem=LNMKG4&WT.mc_id=ilt_partner_webpage_wwl&ocid=508978&DCS=DEPR2510886
+
+
+***Choose the Right Project
+
+1. Greenfield Projects
+when you want a fresh start 
+when you want full control
+
+2. Brownfield Projects
+when you have existing system
+when you need to improve or modify existing system
+
+
+
+**** Team Structures
+
+1. Horizontal Teams
+specific skills, technology or fxn. across the multiple projects
+
+Front-end development, database mgmt., testing
+
+2. Vertical Teams
+cross-functional
+focused on delivering complete features independently
+
+work on specific product from start to end
+
+Feature team, product team
+
+
+
+****Service Hook
+
+
+Azure DevOps---->Project---> Event Happen(Workitems, Repo, Build, Pull request, release etc.)------> run/notify this task on the others services.
+
+
+
+Publisher----define the set of events which you can subscribe to
+
+Subscription--- listen for these events
+
+actions-- run/notify
+
+
+**** Source Control/ Version Control/ SCM(Source Code Management)
+
+manage & track changes to source code & other projects files
+
+
+1. Collaboration
+2. Track changes----4W's--- Who, What, Why, When
+3. code versioning
+4. rollback and recovery
+5. Branching & merging
+6. conflict resolution
+
+
+Best Practice:
+1. Make small, frequent commits
+2. Don't commit personal or sensitive files
+3. update your code often
+4. verify changes before pushing
+5. write clear & concise commit messages
+6. Use branches effectively
+7. Documentation
+
+
+
+Types of Source Control:
+
+1. Centralized VCS
+2. Distributed VCS
+
+
+Azure Repo
+1. Centralized Repo----- TFVC
+2. Distributed VCS----- Git
+
+
+
+1. Monorepo 
+2. Multirepo
+
+https://InfosysApril@dev.azure.com/InfosysApril/Agileproject/_git/Agileproject
+
+
+
+**** Branch
+
+add, modify, update, bug fixes
+
+steps:
+1. Create a branch
+2. add commit
+3. Open Pull request
+4. Discuss & review code
+5. Deploy
+6. Merge
+
+
+
+**** Forking
+
+https://InfosysApril@dev.azure.com/InfosysApril/Agileproject/_git/Agileproject.pooja.sharma
+
+
+
+Measure the quality of code:
+
+1. Reliability
+2. Maintainability
+3. Testability
+4. Portability
+5. Reusability
+
+
+Monolithic approach
+
+Microservice approach
+
+
+Metrics:
+1. failed build %
+2. failed deployment %
+3. ticket volume
+4. bug bounce %
+
+
+**** Technical Debt
+
+
+1. Infrastructure debt
+
+2. pipeline debt
+
+3. security debt
+
+4. code debt
+
+5. process debt
+
+
+poor documentation
+
+outdated technologies
+
+
+Tools:---
+1. sonarcloud
+2. Ndepend---linq
+3. Resharper code quality analysis
+
+
+***Azure DevOps Project Wiki
+
+create, share & collaborate on documentation, knowledge sharing, project related info.
+
+
+markdown
+
+content types:-- text, images, html, formula, tables, code snippets, links, charts/diagrams, attach the files/ videos
+
+
+wiki page
+
+
+Mermaid Diagram: javascript library for creating diagrams & flow charts using text-based syntax
+
+
+
+DAY3:-----------------------------------------------------------------------------------------------------------------------
+
+Day3 Attendance Link:
+https://rms-new.netlify.app/third_party?batch_header=218643 
+Trainer Name: Pooja Sharma
+Use your Corporate Email to mark the attendance
+
+
+Azure Pipeline:
+
+Build, Test, Deploy ---- automatically
+
+1. Build automation & CI
+
+2. Test automation & CT
+
+3. Deployment automation & CD
+
+
+
+Benefits:
+1. integrate with various VCS
+2. work with any languages
+3. work with cross platforms
+4. deploy to the various deployment target
+
+
+Terminologies:----
+
+1. Build---one execution of pipeline. logs
+
+2. Artifact--- collection of files or packages published by the build
+
+3. Job--- build contains one or more jobs. 
+execution boundary of a set of steps
+
+4. Agent--- jobs run on agents
+
+5. Tasks----- build tasks, test tasks, release task
+
+6. stage---- 1) build the app  2) run test  3) deploy the app
+
+
+*** Agents:---- computational requirements (CPU, memory, OS, s/w, runtime)
+
+i. Microsoft-hosted agent---- fully managed agent
+
+Pros:
+less overhead on management
+fresh VM(instance)
+cross platform support
+
+Cons:
+limited s/w control
+can't install custom s/w
+time limit
+
+
+ii. Self-hosted agent
+
+Pros:
+more control
+platform compatibility
+maintenance & upgrades
+no time limit
+
+Cons:
+more overhead on the mgmt.
+security & compliance
+budget
+
+
+
+Azure Service Connection: authenticated connection
+b/w Azure Pipelines & external service/remote service which we want to use to execute tasks in the jobs
+
+
+
+Azure App Service, VM, Key vault
+
+
+Azure DevOps ---
+
+Azure Portal services
+
+
+ mkdir agent ; cd agent
+PS C:\agent> Add-Type -AssemblyName System.IO.Compression.FileSystem ; [System.IO.Compression.ZipFile]::ExtractToDirectory("$HOME\Downloads\vsts-agent-win-x64-4.252.0.zip", "$PWD")
+
+
+
+[class]::method()
+
+
+
+
+
+YAML file:---- name.yml
+repo
+agent
+jobs & tasks
+
+
+Restore
+Build
+Test--- unit, integration, functional
+publish
+artifact
+
+
+
+Azure Artifact:--- 2GiB each org
+
+multiple package types.
+
+1. Nuget--- .NET, .nupkg
+
+2. npm--- Javascript,   .json
+
+3. Maven--- java
+
+4. PyPi(Cheeseshop)---  python
+
+5. docker 
+
+
+Package Feed/ package rep/ package reg:----
+
+1. Public 
+
+2. Private
+
+ACR
+Azure Artifacts
+
+
+
+Continuous Delivery
+
+Traditional:
+P, R, D, D, T, D, M
+
+Modern:
+1. Plan
+2. Realize (Development + Testing)
+3. Release
+4. Value
+
+Continuous Deployment
+
+
+
+Release Approvals & Gates:
+
+approvals & gates feature-------- control the workflow of deployment pipeline
+
+Pre-deployment conditions
+
+
+Deployment Process
+
+
+Post-deployment conditions
+
+
+
+Release Vs Deployment
+
+
+
+
+
+**** Deployment Pattern
+
+1. Classical / DTSP --- Dev-TEST-Staging-Production
+
+
+Modern Deployment Pattern:
+
+i. Blue-Green Deployment
+
+Blue ---active
+Green--- passive
+
+
+
+ii. Canary Release
+
+early warning system 
+
+
+feature toggle/ flags
+
+
+prod---- 90%
+staging---10%
+
+
+iii. dark launching/ release
+
+
+feature toggle/ flags
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
